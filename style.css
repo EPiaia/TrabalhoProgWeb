@@ -1,0 +1,12 @@
+header {
+    background-color: #007acc;
+    height: 50px;
+}
+
+header > ul > li > a {
+    color: white;
+}
+
+header > ul > li > a:hover {
+    color: white;
+}
