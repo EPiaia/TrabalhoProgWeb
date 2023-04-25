@@ -1,0 +1,48 @@
+{
+    "id": "14121c66-557b-46ca-af60-cdb4d773c119",
+    "name" : "getClients",
+    "priority": 1,
+    "request": {
+      "method": "GET",
+      "urlPattern": "/v1/clients"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": [
+        {
+            "client_id":1,
+            "cpf":"117.808.100-16",
+            "name":"Jonathan André"
+        },
+        {
+            "client_id":2,
+            "cpf":"167.905.110-59",
+            "name":"Adriana Costa"
+        },
+        {
+            "client_id":3,
+            "cpf":"090.659.030-20",
+            "name":"Zé Rafael"
+        },
+        {
+            "client_id":4,
+            "cpf":"511.888.150-16",
+            "name":"Márcia Fontes"
+        },
+        {
+            "client_id":5,
+            "cpf":"511.888.150-16",
+            "name":"Edivaldo Cruz"
+        }
+    ],
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding"
+      }
+    },
+    "uuid": "14121c66-557b-46ca-af60-cdb4d773c119",
+    "persistent" : true,
+    "insertionIndex" : 6
+  }

@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 header {
     background-color: #007acc;
     height: 50px;
@@ -10,3 +14,76 @@ header > ul > li > a {
 header > ul > li > a:hover {
     color: white;
 }
+
+.container-principal {
+    height: 80%;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    bottom: 0px;
+}
+
+.btnPesquisar {
+    border: none;
+    border-radius: 10px;
+    background-color: #007acc;
+    color: white;
+}
+
+.btnPesquisar:hover {
+    cursor: pointer;
+}
+
+table.tabela-cli {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid #FFFFFF;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  table.tabela-cli td, table.tabela-cli th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+  }
+
+  table.tabela-cli tbody td {
+    font-size: 13px;
+  }
+
+  table.tabela-cli tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+
+  table.tabela-cli thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+
+  table.tabela-cli thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+
+  table.tabela-cli thead th:first-child {
+    border-left: none;
+  }
+  
+  table.tabela-cli tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+  }
+  
+  table.tabela-cli tfoot td {
+    font-size: 14px;
+  }
