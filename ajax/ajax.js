@@ -1,6 +1,6 @@
 var httpRequest = new XMLHttpRequest();
 
-function makeRequest() { 
+function makeRequest() {
     httpRequest.onreadystatechange = getResponse; 
     httpRequest.open("GET", "http://localhost:8080/v1/clients")
     httpRequest.send(); 
