@@ -1,0 +1,51 @@
+definitions: 
+  id: 
+    type: string
+  name: 
+    type: string
+  priority: 
+    type: integer
+    format: int32
+  request: 
+    type: object
+    properties: 
+      method: 
+        type: string
+      urlPattern: 
+        type: string
+  response: 
+    type: object
+    properties: 
+      status: 
+        type: integer
+        format: int32
+      jsonBody: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            client_id: 
+              type: integer
+              format: int32
+            cpf: 
+              type: string
+            name: 
+              type: string
+      headers: 
+        type: object
+        properties: 
+          Content-Type: 
+            type: string
+          Access-Control-Allow-Origin: 
+            type: string
+          Access-Control-Allow-Methods: 
+            type: string
+          Access-Control-Allow-Headers: 
+            type: string
+  uuid: 
+    type: string
+  persistent: 
+    type: boolean
+  insertionIndex: 
+    type: integer
+    format: int32
